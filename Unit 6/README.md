@@ -15,7 +15,12 @@ Verified on **Flutter 3.47.7 / Dart 3.13.5** (current stable, October 2026):
 **1. Show one example quickly (no setup):** open https://dartpad.dev, paste one
 file from `lib/examples/`, and press Run. Every file has its own `main()`.
 
-**2. Run the whole set as one app:**
+**2. Run the whole set in DartPad:** open https://dartpad.dev, choose Flutter,
+paste `dartpad_all_examples.dart`, and press Run. It contains the same menu as
+the local app and all 14 examples in one file. It uses only Flutter SDK
+libraries, so no package setup is needed. Tests are not included.
+
+**3. Run the whole set locally:**
 
 ```
 flutter create .        # adds android/ios/windows/... folders for your machine
